@@ -2,10 +2,10 @@
 
 service mariadb start
 
-DB_NAME=thedatabase
-DB_USER=theuser
-DB_PASSWORD=abc
-DB_PASS_ROOT=123
+# DB_NAME=thedatabase
+# DB_USER=theuser
+# DB_PASSWORD=abc
+# DB_PASS_ROOT=123
 
 mariadb -v -u root << EOF
 CREATE DATABASE IF NOT EXISTS $DB_NAME;
