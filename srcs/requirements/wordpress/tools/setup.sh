@@ -32,7 +32,7 @@ then
         --admin_email=$WP_ADMIN_EMAIL
 fi;
 
-if ! wp --allow-root --path="/var/www/inception/" user get $WP_USER > /dev/null 2>&1;
+if ! wp --allow-root --path="/var/www/inception/" user get $WP_USER;
 then
     wp  --allow-root --path="/var/www/inception/" user create \
         $WP_USER \
