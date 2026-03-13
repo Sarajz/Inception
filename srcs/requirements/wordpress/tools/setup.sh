@@ -37,7 +37,7 @@ then
     wp  --allow-root --path="/var/www/inception/" user create \
         $WP_USER \
         $WP_EMAIL \
-        --user_pass=$WP_PASSWORD \d
+        --user_pass=$WP_PASSWORD \
         --role=$WP_ROLE
 fi;
 
